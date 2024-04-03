@@ -35,7 +35,7 @@ Welcome to Omnify Weather App! This application allows users to easily search fo
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/akshatgoel07/omnify-assignment.git
+    git clone https://github.com/akshatgoel07/omnify-fullstack-assignment.git
     ```
 
 2. **Navigate to the Project Directory:**
