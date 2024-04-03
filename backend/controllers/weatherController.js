@@ -1,7 +1,6 @@
 const getWeather = async (req, res) => {
 	try {
 		const { location } = req.query;
-		// const apiKey=  "7b8f3bdfa5988132e751aaaf8b889a60";
 
 		const apiKey = process.env.API_KEY;
 		const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;

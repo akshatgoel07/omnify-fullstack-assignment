@@ -9,8 +9,9 @@ import WeatherIcons from "./assets/weather_icon.png";
 import Omnify from "./assets/omnify_logo.png";
 
 //TODO: Replace with prod url and use env
-const API_URL = "http://localhost:3000";
-
+// const API_URL = "https://omnify-assignment-production.up.railway.app";
+const API_URL = import.meta.env.VITE_BACKEND;
+console.log(API_URL)
 function App() {
 	const [location, setLocation] = useState("New York");
 	const [weatherData, setWeatherData] = useState(null);
