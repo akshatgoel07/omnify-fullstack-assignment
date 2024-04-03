@@ -1,0 +1,60 @@
+.weather-card {
+    width: 320px;
+    height: 410px;
+    background-color: #0D9488;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.weather-card_data {
+    margin-left: 30px;
+}
+
+.temperature {
+    color: #CCFBF1;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.temperature span {
+    content: "\00B0";
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.location{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.wind{
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+.humidity{
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+  
+}
+.humidity_inner{
+    min-width: 120px;
+    display: flex;
+    gap: 15px;
+}
+.wind_inner{
+    min-width: 200px;
+    display: flex;
+    gap: 10px;
+}
