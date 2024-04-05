@@ -41,7 +41,7 @@ Welcome to Omnify Weather App! This application allows users to easily search fo
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd omnify-assignment
+    cd omnify-fullstack-assignment
     ```
 
 ### Backend Setup
